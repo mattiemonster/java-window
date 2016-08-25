@@ -6,6 +6,14 @@ public class Main {
 		DisplayProvider dis = new DisplayProvider();
 		
 		dis.init();
+		
+		// Engine messages testing
+		Engine.debugMessage();
+		Engine.error();
+		Engine.errorNamed("ERROR NAMED");
+		Engine.messageNamed("This is a message");
+		Engine.pointMessage();
+		Engine.pointMessageNamed("Point 1");
 	}
 	
 }
